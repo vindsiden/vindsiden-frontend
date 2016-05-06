@@ -1,0 +1,73 @@
+.container {
+    position: relative;
+    height: 950px;
+    /* overlay: */
+    background-color: #333;
+}
+
+.image {
+    background-image: url(./larkollen.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    opacity: .75;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.title {
+    font-size: 1.5rem;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.main {
+    font-weight: 500;
+    margin: 0 0 10px 0;
+    text-align: center;
+    padding: 0;
+}
+
+.sub {
+    font-size: 1.25rem;
+    line-height: 2;
+    margin: 0;
+}
+
+.form {
+    margin-top: 1rem;
+}
+
+.select {
+    font-size: 0.9rem;
+    display: inline-block;
+    width: 15rem;
+}
+
+.button {
+    font-size: 0.8925rem;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 700;
+    border: 0;
+    border-radius: 3px;
+    padding: 3px 20px;
+    transition: background-color .15s linear;
+    line-height: 29px;
+    background-color: #0077c8;
+    color: #fff;
+    border: none;
+}
+
+.button:focus, .button:hover {
+    outline: none;
+    background-color: #66bcf4;
+}

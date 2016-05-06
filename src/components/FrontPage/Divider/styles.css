@@ -1,0 +1,22 @@
+.divider {
+    color: #fff;
+    background: #66bcf4;
+    text-align: center;
+    padding: 20px;
+}
+
+.divider h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 0 0 0.67rem;;
+}
+
+.divider h2 i {
+    margin-right: 1rem;
+}
+
+.divider p {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 400;
+}
