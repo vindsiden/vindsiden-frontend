@@ -8,7 +8,7 @@ class Map extends React.Component {
         return (
             <ReactLeafletMap {...this.props}>
                 <TileLayer
-                    url="https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=TODO-INSERT-TOKEN-HERE"
+                    url="https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoidmluZHNpZGVuIiwiYSI6ImNpbnZ3cjJrMjAwcHR3ZGtsY2l2M3Fwc3IifQ.L6HBmmrQ2UqHpXjGyamHTw"
                     scrollWheelZoom={false}
                     id="mapbox.streets"
                     attribution={'<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'}
