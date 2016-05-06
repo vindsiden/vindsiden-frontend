@@ -1,0 +1,67 @@
+.spots {
+    vertical-align: top;
+    list-style: none;
+    padding: 2rem 1rem;
+    margin: 0;
+}
+
+.spot {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.imageContainer {
+    flex: 0 0 30%;
+    background: no-repeat center center;
+    background-size: cover;
+}
+
+.metadata {
+    flex: 1 1 auto;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+}
+
+.address {
+    margin: 0;
+    flex: 1 1 auto;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.attributes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.attribute {
+    flex: 0 0 50%;
+    padding: 0.5rem;
+    display: flex;
+    font-size: 0.9rem;
+}
+
+.label {
+    flex: 1 1 auto;
+    color: #8c8c8c;
+    font-weight: 400;
+}
+
+.label i {
+    color: #0BB7A5;
+    margin-right: 0.5rem;
+}
+
+.value {
+    font-weight: 600;
+}
