@@ -15,10 +15,10 @@ coverage
 
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
-node_modules
-
-dist
+node_modules/
 
 build
 npm-debug.log
 .idea/
+
+dist/
