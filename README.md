@@ -9,10 +9,14 @@
 
 ## Deployment
 
-Appname: s1c1.muda.no
-admin: oc@uppercase.no (for now)
+Send your IP & SSH-pubkey to oc, and I'll add you as a a deployer.
 
-Send SSH-pubkey, and I'll add you as a deployer
+www-data@s1c1.muda.no:/var/www/vindsiden.no
 
-TODO: Deployment instructions coming soon.
+It currently use [pushwagner](https://github.com/oc/pushwagner) for deployment (which requires Ruby).
 
+`gem install pushwagner`
+
+To deploy:
+
+`pw deploy`

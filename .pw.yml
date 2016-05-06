@@ -1,0 +1,22 @@
+path_prefix: /var/www
+
+static:
+  vindsiden.no:
+    - dist/*
+    - humans.txt
+    - robots.txt
+
+environments:
+  production: &production
+    hosts: [s3c1.muda.no]
+    user:  www-data
+  default:
+    <<: *production
+
+hooks:
+  local:
+    before:
+      - npm run build
+  remote:
+    after:
+      - sudo /usr/sbin/service nginx restart
